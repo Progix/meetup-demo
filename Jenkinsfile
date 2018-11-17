@@ -19,6 +19,7 @@ pipeline {
     steps {
        sh 'echo "Skipped becuase not master"'
     }
+   }
   }
   post {
         always {
